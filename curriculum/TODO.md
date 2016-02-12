@@ -3,8 +3,12 @@ This file is a scratchpad of incomplete parts of the curriculum, and serves as a
 
 
 
+## Using Other Code
+Install some libraries.
 
 ## Web Technologies
+
+Distinguish between where pieces of code run.
 
 #### Backend
 - Counterintuitively, this unit spends most of its time locally on a server/on the commandline.
@@ -17,6 +21,5 @@ This file is a scratchpad of incomplete parts of the curriculum, and serves as a
 
 
 ## Data Structures
-
 
 - String interpolation programming language?
