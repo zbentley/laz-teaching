@@ -22,8 +22,8 @@
 </li>
 <li>On almost all Unixish systems, there is a massive dictionary of words in the user’s language of choice contained in <code>/usr/share/dict/words</code>. Let’s play with it.
 <ul>
-<li>Print out the first 10 words in the dictionary.</li>
-<li>Print out the last 10 words in the dictionary.</li>
+<li>Print out the <strong>first</strong> 10 words in the dictionary.</li>
+<li>Print out the <strong>last</strong> 10 words in the dictionary.</li>
 <li>Print out the first five characters of each of the first 10 words in the dictionary. Words shorter than 5 characters should be left alone. E.g. if the dictionary contained <code>adorable apple apples at</code>, your program should print (probably each on its own line, but you can format it however you like) <code>adora apple apple at</code>.</li>
 <li>Print out all words starting with <code>Q</code> (capitalized) in the dictionary.</li>
 <li>Print out all words starting with <code>Q</code> or <code>X</code> in the dictionary.</li>
