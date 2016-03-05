@@ -124,7 +124,7 @@
 <li>Hint: this does <em>not</em> involve installing Linux on the VM, nor does it involve burning a CD.</li>
 </ul>
 </li>
-<li>With the VM still running and booted from the ISO, make a note of the current actual size ofits virtual hard disk.</li>
+<li>With the VM still running and booted from the ISO, make a note of the current actual size of its virtual hard disk.</li>
 <li>Explain why that size is what it is compared to your previous measurement.</li>
 <li>With the VM still running and booted from the ISO, ensure that the VM can connect to the internet.
 <ul>
