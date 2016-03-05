@@ -45,9 +45,9 @@ this is some static text, and it's very boring
 </ul>
 </li>
 </ul>
-<h5 id="minifinal">Minifinal:</h5>
+<h3 id="minifinal">Minifinal</h3>
 <ul>
-<li>On your laptop, write a program in PHP that prints out the exact same information as the excercises above <em>in the exact same format</em>.
+<li>On your laptop, write a program in PHP that prints out the exact same information as the exercises above <em>in the exact same format</em>.
 <ul>
 <li>Two things are likely to trip you up here: a possible lack of PHP, and the fact that the program must write <em>to the console</em>, not a web page.</li>
 <li>Hint: Neither Apache, MySQL, nor any sort of server are necessary for this.</li>
@@ -57,7 +57,7 @@ this is some static text, and it's very boring
 <h3 id="ides">IDEs</h3>
 <ul>
 <li>Install the IDE of your choice for Java. I suggest IntelliJ IDEA, Eclipse, or NetBeans, but you can use any IDE you wish.</li>
-<li>Create a new, empty project in the IDE, and copy the code from the java date-printing-from-file section of this excercise into that project.</li>
+<li>Create a new, empty project in the IDE, and copy the code from the java date-printing-from-file section of this exercise into that project.</li>
 <li>The IDE will probably present you with a lot of confusing options when you go to create a project. Figure out which one you need, and be able to explain why it is appropriate, and what at least two of the other project alternatives are for (I don’t mean “is it a java project or a C++ project”; those are obvious. I’m referring to the specific <em>kinds</em> of java project, or different configuration settings for the project and what they do).</li>
 <li>Use the IDE to edit run your code directly; no terminal or other text editor should be open, and you should be able to make changes and test your program.</li>
 <li>Most IDEs have some sort of “redline” engine, like Microsoft Word. Red lines usually mean that a portion of code will not work; other indicators suggest that a piece of code will work, but could be improved. Now that your code is working, use one of those other indicators (lightbulbs or non-red lines, usually) to make a change to the code in your application. Be able to explain what the change did, and why it is an improvement (if it is an improvement).</li>
@@ -75,7 +75,7 @@ this is some static text, and it's very boring
 </ul>
 <h3 id="remote-development">Remote Development</h3>
 <ul>
-<li>Figure out some way <em>that does not involve copy-and-paste</em> to get the code you wrote for any <em>one</em> of the above multilanguage excercises onto your VM.
+<li>Figure out some way <em>that does not involve copy-and-paste</em> to get the code you wrote for any <em>one</em> of the above multilanguage exercises onto your VM.
 <ul>
 <li>You can use any one of the excercises <em>other</em> than the shell command (it’s too easy).</li>
 <li>There are countless ways to do this (move code). Specific ones will be discussed later; for this excercise, be free-form. You may have to try more than one thing, and you are welcome to use some feature of an IDE to accomplish this.</li>
