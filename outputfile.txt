@@ -1,0 +1,9 @@
+# Nmap 7.31 scan initiated Tue Dec 27 21:24:57 2016 as: nmap -oN outputfile.txt 50.169.158.109
+Nmap scan report for c-50-169-158-109.hsd1.ma.comcast.net (50.169.158.109)
+Host is up (0.042s latency).
+Not shown: 998 closed ports
+PORT    STATE    SERVICE
+22/tcp  open     ssh
+161/tcp filtered snmp
+
+# Nmap done at Tue Dec 27 21:25:13 2016 -- 1 IP address (1 host up) scanned in 16.74 seconds

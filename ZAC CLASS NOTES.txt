@@ -1,0 +1,81 @@
+
+FOR LOOP
+for i in ${array[@]}
+go
+	echo ${array[$i]}
+end
+
+PIPE
+echo "{$array[*]}" | sort
+
+BASH ARGUMENTS
+run file: sh filename.sh argument1
+
+FILE ('a' on both ends)
+#!/bin/bash
+word=$1
+i=$((${#word}-1))
+
+if [ $word -eq 0 ]
+then
+  echo "Try again!"
+elif [[ ( ${word::1} == 'a' || ${word::1} == 'A' ) && ( "${word:$i:1}" == 'a' || "${word:$i:1}" == 'A' ) ]]
+  echo "YUP!"
+else
+echo "NOPE!"
+fi
+
+FIRST FIVE CHARACTERS OF FIRST 10 WORDS
+#!/bin/bash
+while read 0;
+do
+LEN=$(ecgi ${#p})
+if [ $LEN -get 5 ]; then
+echo ${p:0:5}
+fi
+done <words | head -10
+
+GET ALL WORDS THAT START WITH Q
+if [[ ${p:0:1} == 'Q' ]] echo etc
+
+MAKE SCROLLABLE 
+command | less
+
+SORT IN REVERSE
+tac -r words
+
+GET UNIQUE VALUES
+ | sort | uniq
+
+
+while read p; do echo ${p:0:1}; done <words | tr '[a-z]' | sort | uniq | less
+
+RUNNING A PYTHON SCRIPT
+
+hello.py needs "#!/usr/bin/env python" at the beginning
+THEN
+chmod +x hello.py
+export PATH=$PATH:/home/Desktop/Zac_Class
+hello.py OR ./hello.py
+DIFFERENT PATH IS JUST
+
+dir1/dir2/dir3/hello.py ("./" just means everything in current directory)
+
+To call from anywhere: export PATH=$PATH:/root/Desktop/Zac_Class -> hello.py
+ -> make change permanent by adding above line to /etc/bash.bashrc file
+
+Hypervisor - sometimes called a Virtual Machine Monitor, is a piece of software, firmware or hardware that creates and runs virtual machines. There are two types: native (or "bare metal", runs on the hardware), and "hosted", which run on a conventional OS like other programs, like VMWare. "Host" is primary computer while "guest" would be the virtual machine.
+
+VirtualBox - 
+VMWare - 
+Parallels - 
+Bootloader - 
+ISO Image -
+“Thin provisioned” or “Dynamically provisioned” virtual hard disks - 
+Virtual Machine snapshot - 
+
+
+
+VirtualBox - open source hypervisor for x86 computers, owned by Oracle. Can be installed on a number of operating systems.
+
+
