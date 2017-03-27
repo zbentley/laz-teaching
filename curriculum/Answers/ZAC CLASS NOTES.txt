@@ -1,5 +1,18 @@
+foo=bar
+echo $foo // "bar"
+
+baz=$foo+other
+echo $baz // "bar+other"
+
+echo ${baz^^} // uppercase
+echo ${baz,,} // lowercase
+
+
+
 
 FOR LOOP
+array=(apple banana monkey douchebag)
+
 for i in ${array[@]}
 go
 	echo ${array[$i]}
